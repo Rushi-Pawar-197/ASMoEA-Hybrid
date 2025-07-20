@@ -1,16 +1,30 @@
-## Setup and Run
+## ⚙️ Setup and Run
 
-Follow the steps below to set up and run the project in a virtual environment.
+Follow the steps below to set up and run the project inside a virtual environment.
 
+1. Create a virtual environment:
 ```bash
-python -m venv venv
+   python -m venv venv
+```
+2. Activate the virtual environment:
 
-venv\Scripts\activate
-
-pip install -r requirements.txt
-
-python main.py
+   On **Windows**:
+```bash
+   venv\Scripts\activate
+```
+   On **macOS/Linux**:
+```bash
+   source venv/bin/activate
 ```
 
+4. Install required dependencies:
+```bash
+   pip install -r requirements.txt
+```
+5. Run the application:
+```bash
+   python main.py
+```
+---
 
-**Tip:** Make sure you’re using **Python 3.7 or above** for compatibility.
+**💡 Tip:** Ensure you're using **Python 3.7 or higher** for full compatibility and stable RSA performance.
