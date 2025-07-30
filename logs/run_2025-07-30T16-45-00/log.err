@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "S:\projects\ASMoEA-Hybrid\main.py", line 26, in <module>
+    N0 = N // 2
+         ~~^^~~
+TypeError: unsupported operand type(s) for //: 'str' and 'int'

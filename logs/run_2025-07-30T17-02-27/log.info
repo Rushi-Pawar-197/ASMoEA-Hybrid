@@ -1,0 +1,311 @@
+
+🔧  Setup Initiated
+
+🧠  Choose the model:
+
+    [1]   🪶   DNN           
+    [2]   🌐  Wide & Deep DNN
+    [3]   🧱  ResNet Tabular 
+    [4]   ❌  Exit           
+
+>: -------------------------------------------------------------------------------------------------------------------
+⚙️   Set Parameters for Execution
+
+👥  Enter Population        : 🔁  Enter DL Interval       : 🧬  Enter Total Generations : -------------------------------------------------------------------------------------------------------------------
+
+🛠️  Parameters for current Run 
+
+
+🧠  Model       :   Wide & Deep DNN
+📈  Interval    :   Every 5 Generations
+🧬  Generations :   20 Total
+👥  Population  :   10 Individuals
+
+📂  Dataset path set at : S:\projects\ASMoEA-Hybrid\data\csv\2025-07-30T17-02-27.csv
+
+-------------------------------------------------------------------------------------------------------------------
+✅  Setup Completed in 25s ⏱️
+
+🚀  Starting Execution 
+
+-------------------------------------------------------------------------------------------------------------------
+
+🧬  Gen 01  -  done ✅   (Progress : 5.0 %)
+
+
+🧬  Gen 02  -  done ✅   (Progress : 10.0 %)
+
+
+🧬  Gen 03  -  done ✅   (Progress : 15.0 %)
+
+
+🧬  Gen 04  -  done ✅   (Progress : 20.0 %)
+
++--------------------------------------------- 🔁 DNN Training Block ----------------------------------------------+
+
+🧬  Gen 05  →  Training interval : [2, 5]
+
+⚙️  Preparing to train DNN ...
+
+Epoch 1/20
+1/1 - 4s - 4s/step - loss: 2.4592 - val_loss: 0.5502 - learning_rate: 5.0000e-04
+Epoch 2/20
+1/1 - 0s - 123ms/step - loss: 2.4185 - val_loss: 0.5505 - learning_rate: 5.0000e-04
+Epoch 3/20
+1/1 - 0s - 123ms/step - loss: 2.6889 - val_loss: 0.5506 - learning_rate: 5.0000e-04
+Epoch 4/20
+1/1 - 0s - 114ms/step - loss: 2.3345 - val_loss: 0.5505 - learning_rate: 5.0000e-04
+Epoch 5/20
+1/1 - 0s - 108ms/step - loss: 2.4240 - val_loss: 0.5501 - learning_rate: 5.0000e-04
+Epoch 6/20
+1/1 - 0s - 118ms/step - loss: 2.6071 - val_loss: 0.5497 - learning_rate: 5.0000e-04
+Epoch 7/20
+1/1 - 0s - 115ms/step - loss: 1.7700 - val_loss: 0.5485 - learning_rate: 5.0000e-04
+Epoch 8/20
+1/1 - 0s - 112ms/step - loss: 2.3190 - val_loss: 0.5481 - learning_rate: 5.0000e-04
+Epoch 9/20
+1/1 - 0s - 112ms/step - loss: 2.4137 - val_loss: 0.5477 - learning_rate: 5.0000e-04
+Epoch 10/20
+1/1 - 0s - 119ms/step - loss: 2.2966 - val_loss: 0.5465 - learning_rate: 5.0000e-04
+Epoch 11/20
+1/1 - 0s - 120ms/step - loss: 2.4648 - val_loss: 0.5453 - learning_rate: 5.0000e-04
+Epoch 12/20
+1/1 - 0s - 119ms/step - loss: 2.3825 - val_loss: 0.5449 - learning_rate: 5.0000e-04
+Epoch 13/20
+1/1 - 0s - 106ms/step - loss: 1.5283 - val_loss: 0.5444 - learning_rate: 5.0000e-04
+Epoch 14/20
+1/1 - 0s - 110ms/step - loss: 1.3969 - val_loss: 0.5440 - learning_rate: 5.0000e-04
+Epoch 15/20
+1/1 - 0s - 121ms/step - loss: 2.2956 - val_loss: 0.5431 - learning_rate: 5.0000e-04
+Epoch 16/20
+1/1 - 0s - 119ms/step - loss: 2.6130 - val_loss: 0.5424 - learning_rate: 5.0000e-04
+Epoch 17/20
+1/1 - 0s - 114ms/step - loss: 1.4108 - val_loss: 0.5418 - learning_rate: 5.0000e-04
+Epoch 18/20
+1/1 - 0s - 124ms/step - loss: 2.0386 - val_loss: 0.5410 - learning_rate: 5.0000e-04
+Epoch 19/20
+1/1 - 0s - 119ms/step - loss: 1.8082 - val_loss: 0.5404 - learning_rate: 5.0000e-04
+Epoch 20/20
+1/1 - 0s - 127ms/step - loss: 2.2342 - val_loss: 0.5404 - learning_rate: 5.0000e-04
+Restoring model weights from the end of the best epoch: 19.
+1/1 - 0s - 107ms/step
+
+🧠  DNN training complete → evolution resumes  🧬
+
+
+🧬  Gen 05  -  done ✅   (Progress : 25.0 %)
+
++-----------------------------------------------------------------------------------------------------------------+
+
+🧬  Gen 06  ←  Predicting
+
+1/1 - 0s - 119ms/step
+
+🧬  Gen 06  -  done ✅   (Progress : 30.0 %)
+
++-----------------------------------------------------------------------------------------------------------------+
+
+🧬  Gen 07  ←  Predicting
+
+1/1 - 0s - 51ms/step
+
+🧬  Gen 07  -  done ✅   (Progress : 35.0 %)
+
++-----------------------------------------------------------------------------------------------------------------+
+
+🧬  Gen 08  ←  Predicting
+
+1/1 - 0s - 50ms/step
+
+🧬  Gen 08  -  done ✅   (Progress : 40.0 %)
+
++-----------------------------------------------------------------------------------------------------------------+
+
+🧬  Gen 09  ←  Predicting
+
+1/1 - 0s - 55ms/step
+
+🧬  Gen 09  -  done ✅   (Progress : 45.0 %)
+
++--------------------------------------------- 🔁 DNN Training Block ----------------------------------------------+
+
+🧬  Gen 10  →  Training interval : [6, 10]
+
+⚙️  Preparing to train DNN ...
+
+Epoch 1/20
+1/1 - 0s - 147ms/step - loss: 1.9876 - val_loss: 0.5030 - learning_rate: 5.0000e-04
+Epoch 2/20
+1/1 - 0s - 115ms/step - loss: 1.5040 - val_loss: 0.5030 - learning_rate: 5.0000e-04
+Epoch 3/20
+1/1 - 0s - 103ms/step - loss: 1.6262 - val_loss: 0.5038 - learning_rate: 5.0000e-04
+Epoch 4/20
+1/1 - 0s - 120ms/step - loss: 1.9353 - val_loss: 0.5043 - learning_rate: 5.0000e-04
+Epoch 5/20
+1/1 - 0s - 109ms/step - loss: 2.0091 - val_loss: 0.5053 - learning_rate: 5.0000e-04
+Epoch 6/20
+
+Epoch 6: ReduceLROnPlateau reducing learning rate to 0.00010000000474974513.
+1/1 - 0s - 112ms/step - loss: 1.5294 - val_loss: 0.5053 - learning_rate: 5.0000e-04
+Epoch 7/20
+1/1 - 0s - 111ms/step - loss: 1.5698 - val_loss: 0.5064 - learning_rate: 1.0000e-04
+Epoch 8/20
+1/1 - 0s - 123ms/step - loss: 1.7240 - val_loss: 0.5078 - learning_rate: 1.0000e-04
+Epoch 8: early stopping
+Restoring model weights from the end of the best epoch: 1.
+1/1 - 0s - 46ms/step
+
+🧠  DNN training complete → evolution resumes  🧬
+
+
+🧬  Gen 10  -  done ✅   (Progress : 50.0 %)
+
++-----------------------------------------------------------------------------------------------------------------+
+
+🧬  Gen 11  ←  Predicting
+
+1/1 - 0s - 47ms/step
+
+🧬  Gen 11  -  done ✅   (Progress : 55.0 %)
+
++-----------------------------------------------------------------------------------------------------------------+
+
+🧬  Gen 12  ←  Predicting
+
+1/1 - 0s - 51ms/step
+
+🧬  Gen 12  -  done ✅   (Progress : 60.0 %)
+
++-----------------------------------------------------------------------------------------------------------------+
+
+🧬  Gen 13  ←  Predicting
+
+1/1 - 0s - 57ms/step
+
+🧬  Gen 13  -  done ✅   (Progress : 65.0 %)
+
++-----------------------------------------------------------------------------------------------------------------+
+
+🧬  Gen 14  ←  Predicting
+
+1/1 - 0s - 55ms/step
+
+🧬  Gen 14  -  done ✅   (Progress : 70.0 %)
+
++--------------------------------------------- 🔁 DNN Training Block ----------------------------------------------+
+
+🧬  Gen 15  →  Training interval : [11, 15]
+
+⚙️  Preparing to train DNN ...
+
+Epoch 1/20
+1/1 - 0s - 168ms/step - loss: 1.8839 - val_loss: 0.5479 - learning_rate: 1.0000e-04
+Epoch 2/20
+1/1 - 0s - 331ms/step - loss: 2.2316 - val_loss: 0.5483 - learning_rate: 1.0000e-04
+Epoch 3/20
+1/1 - 0s - 118ms/step - loss: 2.1641 - val_loss: 0.5497 - learning_rate: 1.0000e-04
+Epoch 4/20
+1/1 - 0s - 111ms/step - loss: 1.7445 - val_loss: 0.5507 - learning_rate: 1.0000e-04
+Epoch 5/20
+
+Epoch 5: ReduceLROnPlateau reducing learning rate to 2.0000000949949027e-05.
+1/1 - 0s - 159ms/step - loss: 1.7594 - val_loss: 0.5525 - learning_rate: 1.0000e-04
+Epoch 6/20
+1/1 - 0s - 124ms/step - loss: 1.8381 - val_loss: 0.5554 - learning_rate: 2.0000e-05
+Epoch 7/20
+1/1 - 0s - 126ms/step - loss: 1.5905 - val_loss: 0.5584 - learning_rate: 2.0000e-05
+Epoch 7: early stopping
+Restoring model weights from the end of the best epoch: 1.
+1/1 - 0s - 51ms/step
+
+🧠  DNN training complete → evolution resumes  🧬
+
+
+🧬  Gen 15  -  done ✅   (Progress : 75.0 %)
+
++-----------------------------------------------------------------------------------------------------------------+
+
+🧬  Gen 16  ←  Predicting
+
+1/1 - 0s - 74ms/step
+
+🧬  Gen 16  -  done ✅   (Progress : 80.0 %)
+
++-----------------------------------------------------------------------------------------------------------------+
+
+🧬  Gen 17  ←  Predicting
+
+1/1 - 0s - 60ms/step
+
+🧬  Gen 17  -  done ✅   (Progress : 85.0 %)
+
++-----------------------------------------------------------------------------------------------------------------+
+
+🧬  Gen 18  ←  Predicting
+
+1/1 - 0s - 54ms/step
+
+🧬  Gen 18  -  done ✅   (Progress : 90.0 %)
+
++-----------------------------------------------------------------------------------------------------------------+
+
+🧬  Gen 19  ←  Predicting
+
+1/1 - 0s - 58ms/step
+
+🧬  Gen 19  -  done ✅   (Progress : 95.0 %)
+
++--------------------------------------------- 🔁 DNN Training Block ----------------------------------------------+
+
+🧬  Gen 20  →  Training interval : [16, 20]
+
+⚙️  Preparing to train DNN ...
+
+Epoch 1/20
+1/1 - 0s - 154ms/step - loss: 1.7133 - val_loss: 0.4703 - learning_rate: 2.0000e-05
+Epoch 2/20
+1/1 - 0s - 112ms/step - loss: 1.9042 - val_loss: 0.4724 - learning_rate: 2.0000e-05
+Epoch 3/20
+1/1 - 0s - 117ms/step - loss: 1.8495 - val_loss: 0.4745 - learning_rate: 2.0000e-05
+Epoch 4/20
+1/1 - 0s - 111ms/step - loss: 2.2463 - val_loss: 0.4765 - learning_rate: 2.0000e-05
+Epoch 5/20
+1/1 - 0s - 184ms/step - loss: 2.2213 - val_loss: 0.4789 - learning_rate: 2.0000e-05
+Epoch 6/20
+
+Epoch 6: ReduceLROnPlateau reducing learning rate to 4.000000262749381e-06.
+1/1 - 0s - 172ms/step - loss: 1.8557 - val_loss: 0.4813 - learning_rate: 2.0000e-05
+Epoch 7/20
+1/1 - 0s - 180ms/step - loss: 1.4305 - val_loss: 0.4835 - learning_rate: 4.0000e-06
+Epoch 8/20
+1/1 - 0s - 186ms/step - loss: 1.9580 - val_loss: 0.4859 - learning_rate: 4.0000e-06
+Epoch 8: early stopping
+Restoring model weights from the end of the best epoch: 1.
+1/1 - 0s - 74ms/step
+
+🧠  DNN training complete → evolution resumes  🧬
+
+
+🧬  Gen 20  -  done ✅   (Progress : 100.0 %)
+
+-------------------------------------------------------------------------------------------------------------------
+
+✨  Execution Successful ✨
+
+🧠  Model       :  🌐 Wide & Deep DNN
+⏱️   Duration    :  15s
+
+-------------------------------------------------------------------------------------------------------------------
+
+🔍  Checking duplicates ...
+
+🧹  No duplicates found
+-------------------------------------------------------------------------------------------------------------------
+
+📈  Hypervolume : 6430.7956
+⚖️   Normalized HV       : 0.1286
+
+📉  IGD : 8.9578
+⚖️   Normalized IGD      : 0.1792
+
+-------------------------------------------------------------------------------------------------------------------

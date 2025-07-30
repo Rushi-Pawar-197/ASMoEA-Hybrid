@@ -1,0 +1,16 @@
+
+🔧  Setup Initiated
+
+🧠  Choose the model:
+
+    [1]   🪶   DNN           
+    [2]   🌐  Wide & Deep DNN
+    [3]   🧱  ResNet Tabular 
+    [4]   ❌  Exit           
+
+>: -------------------------------------------------------------------------------------------------------------------
+
+Set the paramerets for execution : 
+
+
+Enter Population        : Enter DL Interval       : Enter Total Generations : 
